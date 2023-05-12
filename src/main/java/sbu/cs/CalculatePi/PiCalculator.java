@@ -15,6 +15,15 @@ public class PiCalculator {
      * @return pi in string format (the string representation of the BigDecimal object)
      */
 
+    public class calculation implements Runnable{
+
+
+        @Override
+        public void run() {
+
+        }
+    }
+
     public String calculate(int floatingPoint)
     {
         // TODO
